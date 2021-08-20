@@ -152,7 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
@@ -164,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.soter@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.base@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.base@1.0-service \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.media.converter@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.vibrator@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.vibrator@2.0-service \
@@ -242,7 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/android.hardware.health@2.0-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.samsung.rc \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -267,7 +264,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.base@1.0-service.rc \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.vibrator@2.0-service.rc \
@@ -336,8 +332,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/samsung/msm8917-common/proprietary/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/samsung/msm8917-common/proprietary/vendor/firmware/wlan/prima/grippower.info:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/grippower.info \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/android.hardware.camera.provider@2.5-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.5-legacy.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -356,16 +350,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.0-impl-qti.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/audio.primary.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8937.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mdfpp.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8937.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gralloc.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8937.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mdfpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/keystore.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8937.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/thermal.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.msm8937.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@3.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
@@ -374,10 +364,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.soter@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.light@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.light@3.0-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcore.so \
@@ -420,7 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
@@ -474,7 +460,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libdrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libdsms_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsms_vendor.so \
@@ -495,8 +480,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnss.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_tonemapper.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgrallocutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpclient.so \
@@ -514,12 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster2_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster2_mdfpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper_vendor.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-engine-wifi-hidl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-wifi-hidl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
@@ -538,9 +515,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmaccutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmaccutils.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmackeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmackeymaster_portable.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmackeymaster_staging.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmackeymaster_staging.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacsoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacsoftkeymasterdevice.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacprotobuf-cpp-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacprotobuf-cpp-lite.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacprotobuf-cpp-full.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
@@ -577,12 +551,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildatactl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdma.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqdma_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdma_file_agent.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
@@ -597,7 +569,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqservice.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
@@ -605,7 +576,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libreffeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreffeature.so \
@@ -617,16 +587,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsamsungVoipResampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungVoipResampler.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscalar.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor_stub.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation_stub.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
@@ -642,11 +602,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecure_storage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecure_storage.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui_svcsock.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libskewknob.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskewknob.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskeymaster3device.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsnap_caffe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_caffe.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsnap_caffe_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_caffe_wrapper.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsnap_compute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_compute.so \
@@ -740,16 +697,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.1.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.2.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.3.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.4.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.5.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.6.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.7.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.8.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.9.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
@@ -767,7 +714,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_dun@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_dun@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.cryptfshw@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cryptfshw@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
@@ -832,16 +778,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@2.1.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.camera.device@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@4.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.frameworks.security.dsms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.frameworks.security.dsms@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.frameworks.security.ucm.crypto@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.frameworks.security.ucm.crypto@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.audio@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.base@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@2.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@4.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@3.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@2.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.health@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.media.converter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.media.converter@1.0.so \
@@ -850,13 +791,77 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.vibrator@2.0.so
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.vibrator@2.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.security.skeymaster@3.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.security.skeymaster@3.0_vendor.so
 
 vintf_fragments += \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.base@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.base@1.0-service.xml
+
+#Camera end keymaster blobs for j4prime end j6prime only
+ifneq ($(filter j4primelte j6primelte, $(TARGET_DEVICE)),)
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@1.0.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@4.0.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@3.0.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.camera.device@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@4.0-impl.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/android.hardware.camera.provider@2.5-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.5-legacy.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc \
+    vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
+    vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor_stub.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation_stub.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gralloc.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8937.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgrallocutils.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdutils.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libdrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmutils.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqservice.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_tonemapper.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.1.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.2.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.3.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.4.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.5.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.6.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.7.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.8.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.9.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.security.skeymaster@3.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.security.skeymaster@3.0_vendor.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskeymaster3device.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmackeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmackeymaster_portable.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmackeymaster_staging.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmackeymaster_staging.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacsoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacsoftkeymasterdevice.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster2_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster2_mdfpp.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper_vendor.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service.rc \
+    vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mdfpp.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/keystore.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8937.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl.so
+endif
+
 
 PRODUCT_PACKAGES += \
     libantradio \
