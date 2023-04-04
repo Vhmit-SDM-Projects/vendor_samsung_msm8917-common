@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter j4primelte j6primelte,$(TARGET_DEVICE)),)
+ifneq ($(filter j4corelte,$(TARGET_DEVICE)),)
 
 endif
